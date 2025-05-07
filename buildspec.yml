@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies (none needed for static app)
+  build:
+    commands:
+      - echo Building static web app...
+
+artifacts:
+  files:
+    - '**/*'
